@@ -4,7 +4,8 @@
   "description": "Front web ui design.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
   },
   "author": "Night_nzh",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "countup.js": "^2.0.8",
     "juery": "^1.0.0",
     "owl.carousel": "^2.3.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }
