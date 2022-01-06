@@ -1,0 +1,17 @@
+{
+  "name": "date-nzh",
+  "version": "1.0.0",
+  "description": "Front web ui design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Night_nzh",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "countup.js": "^2.0.8",
+    "juery": "^1.0.0",
+    "owl.carousel": "^2.3.4"
+  }
+}
