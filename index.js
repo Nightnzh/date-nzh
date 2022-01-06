@@ -5,13 +5,7 @@ $(document).ready(function () {
   $('.owl-carousel').owlCarousel({
     loop: true,
     center: true,
-    // margin:10,
-    // autoplay:true, 
-    // nav:true,
     dots: true,
-    // nav:true,
-    // dotsEach:3,
-    // autoWidth: true,
     autoplayTimeout: 1000,
     autoplayHoverPause: true,
     responsive: {
@@ -24,12 +18,4 @@ $(document).ready(function () {
       },
     }
   });
-
-  // let demo = new CountUp('count-text', 7063);
-  // if (!demo.error) {
-  //   demo.start();
-  // } else {
-  //   console.error(demo.error);
-  // }
-
 });
