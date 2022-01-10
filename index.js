@@ -34,12 +34,17 @@ $(document).ready(function () {
 
   const c150 = new CountUp('c150', 0, 150);
 
+  c100.start()
+  c300.start()
+  c93.start()
+  c150.start()
+
+
 
   // -onScroll  
 
   $(window).on("scroll", () => {
 
-    // console.log(isInViewport(document.querySelector('#c100')));
     $('#c100').visible(true) ? c100.start() : c100.reset()
     $('#c300').visible(true) ? c300.start() : c300.reset()
     $('#c93').visible(true) ? c93.start() : c93.reset()
@@ -86,7 +91,6 @@ $(document).ready(function () {
 
   $(".owl-dots").show()
 
-  // console.log($(window))
 
 });
 
