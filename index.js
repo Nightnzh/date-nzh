@@ -87,10 +87,18 @@ $(document).ready(function () {
     }
   })
 
-
-
   $(".owl-dots").show()
 
+
+  // ScrollReveal
+
+
+  ScrollReveal().reveal('.jum',{delay:100,reset:true});
+  ScrollReveal().reveal('.app-info-2',{delay:100,reset:true});
+  ScrollReveal().reveal('.bgi-item-01',{delay:100,reset:true});
+  ScrollReveal().reveal('.bgi-item-02',{delay:100,reset:true});
+  ScrollReveal().reveal('.container-lg',{delay:100,reset:true});
+  ScrollReveal().reveal('.row',{delay:100,reset:true});
 
 });
 
