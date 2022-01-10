@@ -27,7 +27,7 @@
 }
 
 html,body{
-  font-family: NotoSansCJKtc ,'Noto Sans TC';
+  font-family: NotoSansCJKtc ,'Noto Sans TC',sans-serif;
   position: relative;
   /* border: 1px solid black; */
   height: auto;
