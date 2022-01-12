@@ -103,11 +103,22 @@ $(document).ready(function () {
     reset:true,
     interval: 100
   };
+
+  const slideDown = {
+    distance: '100px',
+    origin: 'top',
+    opacity: 0,
+    delay:100,
+    reset:false,
+    interval: 0
+  };
   ScrollReveal().reveal('.app-info-2',slideUp);
   ScrollReveal().reveal('.bgi-item-01',slideUp);
   ScrollReveal().reveal('.bgi-item-02',slideUp);
   ScrollReveal().reveal('.container-lg',slideUp);
   ScrollReveal().reveal('.row',slideUp);
+  ScrollReveal().reveal('.jum-bgi-3',slideDown);
+
   // ScrollReveal().reveal('.jum',slideUp);
 
 });
