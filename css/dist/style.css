@@ -419,14 +419,14 @@ header{
 
 .dayColumn-items{
   display: flex; 
-  justify-content: space-around;  
+  justify-content: space-between;  
   align-items: center;
   margin-top: 32px;
   margin-bottom: 80px;
 }
 
 .dayColumn-card{
-  margin: 32px 8px;
+  margin: 32px 0px;
   
 }
 
@@ -572,7 +572,7 @@ a.btn.member:hover{
 .bgi-item-02{
   position: absolute;
   height: 503px;
-  left: -265px;
+  left: -350px;
   top: 120px;
 }
 
@@ -760,10 +760,12 @@ a.btn.member:hover{
   letter-spacing: 0.2px;
   color: #585858;
   border-left:#4670ea solid 4px
+  
 }
 
 .catelog-card:hover{
   background-color: #4670ea;
+  transition-duration: 0.5s;
 }
 
 .catelog-card:hover .catelog-title-text{
@@ -775,14 +777,15 @@ a.btn.member:hover{
 }
 
 .dayColumn-card{
-  /* width: 348px; */
-  /* height: 350px;    */
+  width: 31%;
+  min-width: 300px;
+  /* height: 345px;    */
+  /* min-height: 261px; */
+  
   background-color: white;
   border-radius: 32px;
   padding: 0;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   flex-direction: column;
   overflow: hidden;
 }
@@ -793,15 +796,22 @@ a.btn.member:hover{
 }
 
 
+.dayColumn-card-bgi{
+  width: 100%;
+  height: 261px;
+  overflow: hidden;
+  /* border: 1px solid black; */
+}
 
 .dayColumn-img{
-  width: 348px;
-  height: 261px;
+  width: 100%;
+  height: 100%;
   background-position: center;
   background-repeat:no-repeat;
-  background-size: contain;
+  background-size: cover;
   /* object-fit: fill; */
   transform:scale(1,1);transition: all 1s ease-out;
+  /* overflow: hidden; */
 }
 
 .dayColumn-card:hover  .dayColumn-img{
@@ -884,7 +894,15 @@ a.btn.member:hover{
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  
+}
+
+.job-1,.job-2{
+  font-family: NotoSansCJKtc;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
 }
 
 .job-pass-img{

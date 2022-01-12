@@ -12,7 +12,7 @@ $(document).ready(function () {
     // dotsData: true,
     // autoWidth:true,
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 5000,
     autoplayHoverPause: true,
     responsive: {
       0: {
