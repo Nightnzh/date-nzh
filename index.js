@@ -108,7 +108,7 @@ $(document).ready(function () {
   ScrollReveal().reveal('.bgi-item-02',slideUp);
   ScrollReveal().reveal('.container-lg',slideUp);
   ScrollReveal().reveal('.row',slideUp);
-  ScrollReveal().reveal('.jum',slideUp);
+  // ScrollReveal().reveal('.jum',slideUp);
 
 });
 
