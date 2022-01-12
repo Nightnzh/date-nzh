@@ -793,6 +793,7 @@ a.btn.member:hover{
 .dayColumn-card:hover{
   -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.52); 
   box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.1);
+  overflow: hidden;
 }
 
 
@@ -811,7 +812,9 @@ a.btn.member:hover{
   background-size: cover;
   /* object-fit: fill; */
   transform:scale(1,1);transition: all 1s ease-out;
-  /* overflow: hidden; */
+
+  overflow: hidden;
+  /* border-radius: 32px; */
 }
 
 .dayColumn-card:hover  .dayColumn-img{
@@ -897,7 +900,7 @@ a.btn.member:hover{
 }
 
 .job-1,.job-2{
-  font-family: NotoSansCJKtc;
+  font-family: 'Noto Sans TC';
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
