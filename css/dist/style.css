@@ -126,12 +126,20 @@ header{
 
 .jum-bgi-3{
   
-  width: 699px;
+  width: 80%;
   height: 311px;
-  position: absolute;
-  top: 98px;
+  position: fixed;
+  z-index: 0  ;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
+  /* 設定區塊高度 */
+  /* min-height: 600px;  */
+
+  /* 背景自動縮放/固定 */
+  background: url("../../asset/main-item-03.svg")center center no-repeat;
+  /* background-attachment: fixed; */
+  background-size: contain;
   /* right: 0; */
 }
 

@@ -105,19 +105,21 @@ $(document).ready(function () {
   };
 
   const slideDown = {
-    distance: '100px',
+    distance: '100%',
     origin: 'top',
     opacity: 0,
     delay:100,
-    reset:false,
+    reset:true,
     interval: 0
   };
   ScrollReveal().reveal('.app-info-2',slideUp);
-  ScrollReveal().reveal('.bgi-item-01',slideUp);
-  ScrollReveal().reveal('.bgi-item-02',slideUp);
+  ScrollReveal().reveal('.bgi-item-01',slideDown);
+  ScrollReveal().reveal('.bgi-item-02',slideDown);
   ScrollReveal().reveal('.container-lg',slideUp);
   ScrollReveal().reveal('.row',slideUp);
-  ScrollReveal().reveal('.jum-bgi-3',slideDown);
+  ScrollReveal().reveal('.app-info-2-1',slideUp);
+  ScrollReveal().reveal('.row',slideUp);
+  // ScrollReveal().reveal('.jum-bgi-3',slideDown);
 
   // ScrollReveal().reveal('.jum',slideUp);
 
