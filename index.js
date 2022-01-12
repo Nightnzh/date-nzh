@@ -94,12 +94,21 @@ $(document).ready(function () {
 
 
   // ScrollReveal().reveal('.jum',{delay:100,reset:true});
-  ScrollReveal().reveal('.app-info-2',{delay:100,reset:true});
-  ScrollReveal().reveal('.bgi-item-01',{delay:100,reset:true});
-  ScrollReveal().reveal('.bgi-item-02',{delay:100,reset:true});
-  ScrollReveal().reveal('.container-lg',{delay:100,reset:true});
-  ScrollReveal().reveal('.row',{delay:100,reset:true});
-  ScrollReveal().reveal('.jum',{delay:200,reset:true});
+
+  const slideUp = {
+    distance: '100px',
+    origin: 'bottom',
+    opacity: 0,
+    delay:0,
+    reset:true,
+    interval: 100
+  };
+  ScrollReveal().reveal('.app-info-2',slideUp);
+  ScrollReveal().reveal('.bgi-item-01',slideUp);
+  ScrollReveal().reveal('.bgi-item-02',slideUp);
+  ScrollReveal().reveal('.container-lg',slideUp);
+  ScrollReveal().reveal('.row',slideUp);
+  ScrollReveal().reveal('.jum',slideUp);
 
 });
 
