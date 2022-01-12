@@ -853,7 +853,7 @@ a.btn.member:hover{
 }
 
 .recommend-carouls-card{
-  width: 300px;
+  width: 300px !important;
   /* height: 282px; */
   /* margin: 0 20px 20px 0; */
   padding: 32px 32px 40px;
@@ -1033,6 +1033,11 @@ a.btn.member:hover{
 
 .nopadding{
   padding: 0;
+}
+
+.padding-lr-10p{
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* animate */

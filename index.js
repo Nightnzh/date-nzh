@@ -99,6 +99,7 @@ $(document).ready(function () {
   ScrollReveal().reveal('.bgi-item-02',{delay:100,reset:true});
   ScrollReveal().reveal('.container-lg',{delay:100,reset:true});
   ScrollReveal().reveal('.row',{delay:100,reset:true});
+  ScrollReveal().reveal('.jum',{delay:200,reset:true});
 
 });
 
